@@ -1,12 +1,11 @@
-* {
-    margin: 0; padding: 0;
-}
+* {margin: 0; padding: 0;}
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     font-style: italic;
     font-style: inherit;
+
     background-image: url(timao.jpg);
     background-size: cover;
 }
@@ -24,7 +23,7 @@ body {
     border-right: 1px solid #c0c0c0;
 }
 
-.menu li a {
+    .menu li a {
     color: #333;
     text-decoration: none;
     padding: 5px 10px;
@@ -32,27 +31,24 @@ body {
 }
 
 .menu li a:hover {
-    background: #333;
-    color: #fff;
-   -moz-box-sizing: 0 3px 10px 0 #ccc;
-   -webkit-box-sizing: 0 3px 10px 0 #ccc;
-   text-shadow: 0px 0px 5px #fff;
+background: #333;
+color: #fff;
+box-shadow:0 3px 10px 0 #ccc;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow: 0px 0px 5px #fff;
 }
 
 .menu li ul {
     position: absolute;
-    top: 25px;
-    left: 0;
+    top:25px;
+    left:0;
     background-color: #fff;
-    display: none;    
+    display:none;    
 }
 
-.menu li:hover ul,
-.menu li.over ul {
-    display: block;
-}
+    .menu li:hover ul, .menu li.over ul {display: block;}
 
-.menu li ul li {
+    .menu li ul li {
     border: 1px solid #c0c0c0;
     display: block;
     width: 150px;
