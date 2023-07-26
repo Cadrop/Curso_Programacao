@@ -1,40 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalho com imagens</title>
-</head>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Trabalho com imagens</title>
+        <link rel="stylesheet" href="atimagem.css">
+    </head>
+    <body>
+    
 
-<style>
-    .ameixa{
-        width: 200px;
-        height: 200px;
+        <figure>
+            <img src="imagens/nativaameixa_.jpg" class="ameixa" alt="Creme" />
+            <figcaption></figcaption>
+        </figure>
 
-    }
-    body{
-        background-color: rgb(red, green, blue);
-    }
-    a{
-        text-decoration: none;
-        color: rgb(red, green, blue);
-    }
-    fieldset{
-        width: 700px;
+        <form action="">
+            <fieldset>
+                <legend>Dados de Contato</legend>
 
-    }
-</style>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required />
 
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" required />
 
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
 
+                <label for="mensagem">Mensagem:</label>
+                <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    rows="4"
+                    required
+                ></textarea>
 
-<body>
-    <figure>
-        <img src="imagens/nativaameixa_.jpg" alt="creme ameixa">
-        <figcaption>Hidratante Boticário</figcaption>
-    </figure>
+                <input type="submit" value="Enviar" />
+            </fieldset>
+        </form>
 
     
-</body>
-
+    </body>
 </html>
